@@ -31,9 +31,6 @@ public setnome(nome: string):void {
 public setmatricula(matricula:number): void{
     this.matricula = matricula;
 }
-public setsalario(salario:number): void{
-    this.salario = salario;
-}
 
 public alterarSalario(novoSalario: number): void {
         if (novoSalario <= 0) {
